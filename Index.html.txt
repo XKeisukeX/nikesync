@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Branded Shoes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+</head>
+<body>
+    
+    <!-- header section -->
+       <header id="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow navbar-light">
+                <div class="container">
+                    <div class="d-flex gap-2 align-items-center justify-content-between">
+                       <div class="d-flex gap-2 align-items-center">
+                            <img src="https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo-1971-now.png" class="logo" alt="">
+                            <a class="navbar-brand custom-h1ghlight" href="#">NIKESYNC</a>
+                       </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item custom-li">
+                                <a href="#" aria-current="page" class="nav-link">Home</a>
+                            </li>
+                        <li class="nav-item custom-li">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item custom-li">
+                            <a href="#products" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item custom-li">
+                            <a href="#contact" class="nav-link" >Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+       </header>
+    <!-- header section end -->
+
+    <!-- home section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="container">
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <img src="Shoe.png" alt="" class="mx-auto d-block w-100 img-fluid">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <h1 class="custom-h1ghlight">NIKE SYNC</h1>
+                            <h1>Never Stop Running</h1>
+                            <p>Designed for relentless athletes, combining cutting-edge technology, superior comfort, and motivational features to inspire continuous movement and achieve new personal bests with every run.</p>
+                            <button class="btn btn-primary rounded-3 custom-btn" type="button">
+                                <i class="fas fa-shopping-cart">BUY NOW</i>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="container">
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <img src="shoe5-removebg-preview.png" alt="" class="mx-auto d-block w-100 img-fluid">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <h1 class="custom-h1ghlight">NIKE SYNC</h1>
+                            <h1>Never Stop Running</h1>
+                            <p>Designed for relentless athletes, combining cutting-edge technology, superior comfort, and motivational features to inspire continuous movement and achieve new personal bests with every run.</p>
+                            <button class="btn btn-primary rounded-3 custom-btn" type="button">
+                                <i class="fas fa-shopping-cart">BUY NOW</i>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="container">
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <img src="shoe2-removebg-preview.png" alt="" class="mx-auto d-block w-100 img-fluid">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-6">
+                        <div class="p-3">
+                            <h1 class="custom-h1ghlight">NIKE SYNC</h1>
+                            <h1>Never Stop Running</h1>
+                            <p>Designed for relentless athletes, combining cutting-edge technology, superior comfort, and motivational features to inspire continuous movement and achieve new personal bests with every run.</p>
+                            <button class="btn btn-primary rounded-3 custom-btn" type="button">
+                                <i class="fas fa-shopping-cart">BUY NOW</i>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- home section end -->
+
+    <!-- main section -->
+    <main class="container">
+        <section id="services" class="mt-5">
+            <div class="row g-2">
+                <div class="col-md-6 order-1">
+                    <div class="col">
+                        <div class="card p-3 mb-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gy-3">
+                                    <img src="icons8-fit-80.png" alt="" class="mx-auto d-block custom-img-width">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-title">Find the Perfect Fit</h5>
+                                        <p>Experience unmatched comfort and performance tailored to every runner's needs and style</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card p-3 mb-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gy-3">
+                                    <img src="icons8-exchange-80.png" alt="" class="mx-auto d-block custom-img-width">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-title">Free Exchange</h5>
+                                        <p>Hassle-free returns and exchanges ensure you get the perfect fit every time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card p-3 mb-3 custom-services-card" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 gy-3">
+                                    <img src="icons8-google-contacts-80.png" alt="" class="mx-auto d-block custom-img-width">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body custom-text">
+                                        <h5 class="card-title">Contact Our Seller</h5>
+                                        <p>Reach out for personalized assistance, product inquiries, and expert advice on your purchase.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col order-lg-2">
+                    <img src="onshop-removebg-preview.png" alt="" class="mx-auto d-block w-100">
+                </div>
+            </div>
+        </section>
+
+        <!-- casual shoes -->
+        <section id="product" class="mt-5">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Casual Shoes</h2>
+                <a href="Product.html"><p class="text-uppercase text-primary custom-hover">See All</p></a>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="airmax-removebg-preview.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h4 class="card-title">Nike Air Max 97 Shoes</h4>
+                            <p>Iconic design, exceptional comfort, and innovative cushioning for ultimate style and performance.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-h1ghlight">$521</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="skateshoe-removebg-preview.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h4 class="card-title">Sneaker Skate Shoes</h4>
+                            <p>Durable construction, superior grip, and stylish design for optimal performance and comfort on your board.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-h1ghlight">$441</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow custom-card">
+                        <img src="backetbshoe-removebg-preview.png" alt="" class="card-img-top w-100 custom-bg">
+                        <div class="card-body">
+                            <h4 class="card-title">Sneaker Basketball Shoes</h4>
+                            <p>Engineered for support, traction, and style, enhancing your performance on the court with every move.</p>
+                        </div>
+                        <div class="card-footer custom-footer">
+                            <div class="float-start">
+                                <h4 class="custom-h1ghlight">$7025</h4>
+                            </div>
+                            <div class="float-end">
+                                <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- casual shoes end -->
+
+    <!-- Formal shoes -->
+    <section id="products" class="mt-5">
+        <h2>FORMAL SHOES</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 shadow custom-card">
+                    <img src="lethearshoe-removebg-preview.png" alt="" class="w-100 custom-bg">
+                    <div class="card-body">
+                        <h4 class="card-title">Prestige High-Cut Leather</h4>
+                        <p>Elevate your style with timeless sophistication and premium comfort in every step.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h4 class="custom-h1ghlight">$321</h4>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow custom-card">
+                    <img src="slipshoe-removebg-preview.png" alt="" class="w-100 custom-bg">
+                    <div class="card-body">
+                        <h4 class="card-title">Slip-On Formal Shoes</h4>
+                        <p>Effortlessly elegant, crafted for comfort, perfect for any formal occasion with seamless style and sophistication.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h4 class="custom-h1ghlight">$441</h4>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow custom-card">
+                    <img src="oxford-removebg-preview.png" alt="" class="card-img-top w-100 custom-bg">
+                    <div class="card-body">
+                        <h4 class="card-title">Oxford Shoes</h4>
+                        <p>Timeless elegance meets superior craftsmanship, ensuring sophistication and comfort for any occasion.</p>
+                    </div>
+                    <div class="card-footer custom-footer">
+                        <div class="float-start">
+                            <h4 class="custom-h1ghlight">$591</h4>
+                        </div>
+                        <div class="float-end">
+                            <button class="btn btn-primary rounded-3 custom-btn"><i class="fas fa-shopping-cart">BUY NOW</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Formal shoes end -->
+
+    <!-- Subscribe Section -->
+        <section id="contact" class="mt-5 mb-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <div class="card custom-card">
+                        <div class="text-center">
+                            <h4 class="d-block mt-3 text-uppercase">Subscribe to our newsletter</h4>
+                            <div class="input-group mt-4 mb-3">
+                                <input type="text" placeholder="Enter your email" class="form-control">
+                                <button class="btn btn-success border-rad custom-btn" type="button" id="button-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Subscribe Section End -->
+
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Section -->
+        <footer id="footer" class="bg-light text-center text-lg-start mt-5">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Featured</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Holiday Gift Guide</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Air Force</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Jordan 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Airmax 2090</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Shoes</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-dark custom-hover">All Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Running Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Jorden Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Basketball Shoes</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Clothing</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-dark custom-hover">All Clothing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Top's & T-shirt</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Shorts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Hoodies & Pullover</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Soccer</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Infant & Toodler Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Kid's Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Kid's Basketball Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-dark custom-hover">Kid's Running Shoes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="pt-3 container text-center">
+                    <h6>&copy; <span class="custom-h1ghlight">2024 </span> | All Rights Reserved.</h6>
+                </div>
+            </div>
+        </footer>
+    <!-- Footer Section End -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
